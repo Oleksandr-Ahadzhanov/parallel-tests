@@ -1,15 +1,12 @@
-package module5.with.test.classes;
+package module3.with.test.classes;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class FirstTest5 {
+public class FirstTest9 {
 
     @Test
     void oneTestMethod() throws Exception{
-        int a = 1;
-        int b = 2;
-        Assertions.assertTrue(a+b == 4);
+        Thread.sleep(5000);
     }
     @Test
     void twoTestMethod() throws Exception {
